@@ -74,10 +74,10 @@ app.listen(process.env.PORT||3001,()=>{
 //     console.log(hash)
 // });
 
-// // Load hash from your password DB.
+// Load hash from your password DB.
 // bcrypt.compare("bacon", hash, function (err, res) {
-//     // res == true
+    // res == true
 // });
 // bcrypt.compare("veggies", hash, function (err, res) {
-//     // res = false
+   // res = false
 // });
