@@ -54,8 +54,8 @@ app.post('/imageURL',(req,res)=>{
 })
 
 
-app.listen(process.env.port||3001,()=>{
-    console.log(`app is running at server ${process.env.port}`)
+app.listen(process.env.PORT||3001,()=>{
+    console.log(`app is running at server ${process.env.PORT}`)
 })
 
 
