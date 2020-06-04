@@ -9,6 +9,11 @@ const signin=require('./controllers/signin')
 const profile=require('./controllers/profile')
 const image=require('./controllers/image')
 
+const PORT = process.env.PORT || 3000;
+
+
+
+
  const db=knex({
     client: 'pg',
     connection: {
@@ -54,8 +59,8 @@ app.post('/imageURL',(req,res)=>{
 })
 
 
-app.listen(process.env.PORT||3001,()=>{
-    console.log(`app is running at server ${process.env.PORT}`)
+app.listen(PORT||3001,()=>{
+    console.log(`app is running at server ${PORT}`)
 })
 
 
